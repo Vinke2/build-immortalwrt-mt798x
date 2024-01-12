@@ -15,11 +15,11 @@ env:
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
   TZ: Asia/Shanghai
-  DEVICE: 360t7
+  DEVICE: rax3000m
   UPLOAD_OUTPUT: true
 
 jobs:
-   _360t7:
+   _rax3000m:
     runs-on: ubuntu-20.04
     permissions:
       contents: write
